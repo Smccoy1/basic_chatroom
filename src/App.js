@@ -2,6 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import NavbarTop from './components/navbar/Navbar';
+import Sidebar from './components/sidebar/Sidebar';
 
 
 function App() {
@@ -10,7 +11,9 @@ function App() {
       <header>
         <NavbarTop />
       </header>
-      
+      <body>
+        <Sidebar />
+      </body>
     </div>
   );
 }
