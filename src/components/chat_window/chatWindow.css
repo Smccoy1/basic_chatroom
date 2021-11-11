@@ -1,0 +1,7 @@
+.chat-window {
+    border: 2px solid black;
+    position: relative;
+    width: 43.75rem;
+    height: 31.25rem;
+    margin-left: 25%;
+}

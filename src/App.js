@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import NavbarTop from './components/navbar/Navbar';
 import Sidebar from './components/sidebar/Sidebar';
+import ChatWindow from './components/chat_window/chatWindow';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       </header>
       <body>
         <Sidebar />
+        <ChatWindow />
       </body>
     </div>
   );
